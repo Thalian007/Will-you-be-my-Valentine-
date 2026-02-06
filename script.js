@@ -37,7 +37,7 @@ function handleYes() {
     container.innerHTML = `
         <h1 class="success-text">I knew you'd say yes! ❤️</h1>
         <div class="image-container">
-            <img src="1000223734.jpg" alt="Our cozy moment" class="fade-in">
+            <img src="IMG-20250913-WA0024.jpg" alt="Our cozy moment" class="fade-in">
         </div>
         <div class="final-message-container">
             <p class="final-message">
