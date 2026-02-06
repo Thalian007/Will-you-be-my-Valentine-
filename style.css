@@ -1,0 +1,105 @@
+/* General Layout */
+body {
+    background-color: #fff0f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(255, 77, 109, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Typography */
+h1 { 
+    color: #ff4d6d; 
+    font-size: 1.5rem; 
+    margin-bottom: 20px; 
+    line-height: 1.3;
+}
+
+.success-text { 
+    color: #c9184a; 
+}
+
+/* Image Styling */
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ffccd5;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap; /* Helps buttons wrap on small screens */
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yesBtn { 
+    background-color: #ff4d6d; 
+    color: white; 
+    font-weight: bold; 
+}
+
+#noBtn { 
+    background-color: #ffccd5; 
+    color: #ff4d6d; 
+}
+
+/* Final Message Styling */
+.final-message-container {
+    margin-top: 20px;
+}
+
+.final-message {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.date-stamp {
+    font-weight: bold;
+    color: #ff4d6d;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    display: block;
+}
+
+/* Animations */
+.fade-in { 
+    animation: fadeIn 1.5s ease-in; 
+}
+
+@keyframes fadeIn { 
+    from { opacity: 0; transform: translateY(10px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
